@@ -9,3 +9,5 @@ closeBtn.addEventListener('click', () => {
 function open() {
 	modal.classList.add('open');
 }
+
+setTimeout(open, 10000)
